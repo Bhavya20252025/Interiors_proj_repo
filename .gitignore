@@ -4,12 +4,3 @@
 *.tfstate.*
 terraform.tfstate
 terraform.tfstate.backup
-
-# Credentials
-*.pem
-*.key
-*.env
-
-# OS files
-.DS_Store
-Thumbs.db
