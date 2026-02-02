@@ -1,7 +1,14 @@
 provider "aws" {
   region = var.region
 }
-
+terraform {
+  backend "s3" {
+    bucket  = "bhavya-terraform-state-2026"
+    key     = "interior-website/terraform.tfstate"
+    region  = "eu-central-1"
+    encrypt = true
+  }
+}
 # -------------------------
 # S3 Bucket (PRIVATE)
 # -------------------------
