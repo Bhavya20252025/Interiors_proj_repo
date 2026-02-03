@@ -34,6 +34,12 @@ resource "aws_s3_object" "index" {
   source       = "../website/index.html"
   content_type = "text/html"
 }
+resource "aws_s3_object" "image" {
+  bucket       = aws_s3_bucket.website.id
+  key          = "image.jpg"
+  source       = "../website/image.jpg"
+  content_type = "image/jpeg"
+}
 
 # -------------------------
 # CloudFront Origin Access Control
