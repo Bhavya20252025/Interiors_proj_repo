@@ -9,4 +9,4 @@ Interior_Website/
 │   └── outputs.tf
 └── website/
     └── index.html
-Once set up is done, we can host static website and access it by using CLOUD FRONT's-Distribution domain name
+Once set up is done, we can host static website and access it by using CLOUD FRONT's-Distribution domain name--
