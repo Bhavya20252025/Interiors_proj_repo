@@ -65,3 +65,12 @@ body {
   text-align: center;
   padding: 15px;
 }
+.whatsapp-link {
+  color: #25D366; /* WhatsApp green */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.whatsapp-link:hover {
+  text-decoration: underline;
+}
